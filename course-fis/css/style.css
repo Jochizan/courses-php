@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: "Oswald";
+}
+
+body {
+  background: #e2eee2;
+  color: #f0f0f0;
+}
+
+.visitantes {
+  background: #77DD77;
+  width: 6.4rem;
+  height: 6.0rem;
+  border-radius: 0.5rem;
+  text-align: center;
+  padding: 0 0 0 0;
+  margin: 0 auto;
+}
+
+h1 {
+  font-weight: normal;
+  text-align: center;
+  margin: 3.0rem auto;
+  color: #0E2C44;
+}
+
+.visitantes .numero {
+  font-weight: normal;
+  font-size: 2.4rem;
+}
+
+.visitantes .texto {
+  font-size: 1.6rem;
+  font-weight: normal;
+}

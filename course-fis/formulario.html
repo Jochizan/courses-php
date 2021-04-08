@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<title>Formulario</title>
+		<link rel="stylesheet" href="css/main.css">
+	</head>
+	<body>
+		<strong><span>CONTACTO</span></strong>
+		<form id="form1" method="post" action="envio.php">
+			<table border="2" width="360" bgcolor="red" bordercolor="#EA7B7B">
+				<tr>
+					<td>Apellido: </td>
+					<td><input type="text" size="45" name="apellido" id="apellido"></td>
+				</tr>
+				<tr>
+					<td>Nombre: </td>
+					<td><label for=""><input type="text" size="45" name="nombre" id="nombre"></label></td>
+				</tr>
+				<tr>
+					<td>Dirección: </td>
+					<td><label for=""><input type="text" size="45" name="direccion" id="direccion"></label></td>
+				</tr>
+				<tr>
+					<td>Telefono: </td>
+					<td><label for=""><input type="text" size="45" name="telefono" id="telefono"></label></td>
+				</tr>
+				<tr>
+					<td>Correo: </td>
+					<td><label for=""><input type="email" size="45" name="correo" id="correo"></label></td>
+				</tr>
+				<tr>
+					<td>Asunto: </td>
+					<td><label for=""><input type="text" size="45" name="asunto" id="asunto"></label></td>
+				</tr>
+				<tr>
+					<td height="60" colspan="2">
+						<div align="center"><span>Consulta</span></div>
+					</td>
+				</tr>
+				<tr>
+					<td height="90" colspan="2"><textarea name="consulta" id="consulta" cols="50" rows="10"></textarea></td>
+				</tr>
+				<tr>
+					<td height="40" colspan="2">
+						<label for=""></label>
+						<div align="center"><input type="submit" name="submit" value="Enviar"><label for=""><input type="reset" name="submit" value="Cancelar"></label></div>
+					</td>
+				</tr>
+			</table>
+		</form>
+	</body>
+</html>

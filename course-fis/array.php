@@ -1,0 +1,3 @@
+<?php
+$alex = array('telefono');
+?>
