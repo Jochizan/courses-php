@@ -10,7 +10,6 @@ html {
   box-sizing: inherit;
 }
 
-
 main {
   display: flex;
   flex-direction: column;
@@ -18,4 +17,39 @@ main {
   align-items: center;
   text-align: center;
   min-height: 100vh;
+}
+
+progress {
+  margin-top: 1rem;
+}
+
+.drop-zone {
+  margin-left: auto;
+  margin-right: auto;
+  border: thin dotted #222;
+  width: 70%;
+  height: 40vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.drop-zone.is-active {
+  border: thick dashed #111;
+  background-color: rgba(20, 140, 20, 0.55);
+  animation: pulse 1.5s infinite;
+  animation-timing-function: linear;
+}
+
+@keyframes pulse {
+
+  0%,
+  100% {
+    transform: scale(1);
+  }
+
+  50% {
+    transform: scale(1.1);
+  }
 }
